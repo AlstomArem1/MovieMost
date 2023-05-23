@@ -1,0 +1,91 @@
+body {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movie .movie_intro {
+    display: flex;
+    justify-content: center;
+}
+
+.movie .movie_intro .movie_backdrop {
+    height: 350px;
+    width: 90%;
+    position: absolute;
+    /* border: 1px solid green; */
+}
+
+.movie .movie_detail .movie_posterBox .movie_poster {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.movie .movie_detail {
+    display: flex;
+    position: relative;
+    /* border: 1px solid gold; */
+    width: 87%;
+    margin-top: 10%;
+    left: 8%;
+
+
+
+}
+
+.movie .movie_detail .movie_detailRight {
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+
+.movie .movie_detail .movie_detailRightTop {
+    /* border: 1px solid blue; */
+    margin-bottom: 50px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.movie .movie_detail .movie_detailRightTop .movie_name{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.movie .movie_detail .movie_detailRightTop .movie_voteCount{
+    margin-left: 10px;
+    
+}
+.movie .movie_detail .movie_detailRightTop .movie_releaseDate{
+    margin-right: 10px;
+}
+.movie .movie_detail .movie_detailRightTop .movie_genres{
+    margin-top: 10px;
+}
+.movie .movie_detail .movie_detailRightTop .movie_genres .movie_genre{
+    border: 1px solid #fff;
+    margin-right: 20px;
+    padding: 5px 8px;
+    border-radius: 50px;
+    
+}
+
+.movie .movie_detail .movie_detailRightBottom {
+    /* border: 1px solid blue; */
+    margin-left: 20px;
+    
+    font-size: 15px;
+}
+.movie .movie_detail .movie_detailRightBottom .synopsisText{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    
+}

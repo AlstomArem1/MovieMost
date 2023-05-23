@@ -1,0 +1,15 @@
+.movie_list {
+    /* border: 1px solid gold; */
+}
+.list_title{
+   margin: 30px 70px;
+   color: #fff;
+}
+.list_cards {
+    justify-content: center;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
